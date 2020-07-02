@@ -15,7 +15,7 @@ class Home extends Component {
     });
   };
 
-  /** API key adds to sessionStore */
+  /** Adding API key to sessionStore */
   addApiKey = () => {
     sessionStorage.setItem('apikey', this.state.apiKey);
     this.setState({ message: 'You have been added API key successfully.' });
