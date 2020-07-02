@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.nav-item a {
+  color: #fff;
+  padding-left: 2rem;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+}
+
+.nav-item a.active {
+  font-weight: bold;
+}
+
+.statusMsg {
+  color: #006400;
+}
+
+.error {
+  color: #ff0000;
+}
+
+.result {
+  color: #33b7ff;
+}
